@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 657px;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+}
+
+header h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: rgb(164, 255, 164);
+}
+
+.menu{
+    cursor: pointer;
+    width: 40px;
+    margin-left: 78%;
+    height: auto;
+    margin-top: 50px;
+    background-size: cover;
+}
+
+.menu ul{
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+
+.menu li{
+    margin-top: 20px;
+}
+
+.principal-container{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.principal-container h2{
+    padding-left:50px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+
+.principal-container h1{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    padding-top: 25px;
+    font-size: 60px;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+}
+
+.body h2{
+    color: rgb(164, 255, 164);
+}
+
+.body p{
+    padding-top: 25px;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.body button {
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(164, 255, 164);
+    border: 1px solid rgb(164, 255, 164);
+}
+
+.middleContainer{
+    width: 100%;
+    height: auto;
+}
+
+.middleContainer h1{
+    color: rgb(88, 76, 76);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.imageOfMyProjectsContainer{
+    width: 100%;
+    height: auto;
+}
+
+.images{
+    margin: 0 auto;
+    width: 60%;
+    height: 700px;
+}
+
+.rowOne{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.rowTwo{
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.imageOne{
+    cursor: pointer;
+    background-image: url("../img/adminAeromaxImage.jpg");
+    background-size: cover;
+    background-position-x: -20px;
+    width: 50%;
+    height: 350px;
+}
+
+.imageTwo{
+    cursor: pointer;
+    background-image: url("../img/TravelImage.jpg");
+    background-size: 100%;
+    width: 50%;
+    height: 350px;
+}
+
+.imageThree{
+    cursor: pointer;
+    background-image: url("../img/CalculAppImage.jpg");
+    width: 50%;
+    background-size: cover;
+    height: 350px;
+}
+
+.imageFour{
+    cursor: pointer;
+    background-image: url("../img/AeromaxWebImage.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 350px;
+}
+
+.box{
+    display: none;
+}
+
+.box p{
+    color: rgb(164, 255, 164);
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+.box button{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:20px;
+    background: transparent;
+    border: 1px solid ;
+    background-color: rgb(164, 255, 164);
+    border: 1px solid rgb(164, 255, 164);
+    border-radius: 30px;
+}
+
+button a{
+    color: black;
+}
+
+.imageOne:hover{
+    background-image: none;
+    background-color: black;
+    transition: background 1.3s 0s ease;
+}
+
+.imageOne:hover .box{
+    display: block;
+}
+
+.imageTwo:hover{
+    background-image: none;
+    background-color: black;
+    transition: background 1.3s 0s ease;
+}
+
+.imageTwo:hover .box{
+    display: block;
+}
+
+.imageThree:hover{
+    background-image: none;
+    background-color: black;
+    transition: background 1.3s 0s ease;
+}
+
+.imageThree:hover .box{
+    display: block;
+}
+
+.imageFour:hover{
+    background-image: none;
+    background-color: black;
+    transition: background 1.3s 0s ease;
+}
+
+.imageFour:hover .box{
+    display: block;
+}
