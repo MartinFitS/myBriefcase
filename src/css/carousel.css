@@ -210,3 +210,89 @@
     font-weight: 100;
     color: rgb(88, 76, 76);
 }
+
+@media(max-width:1024px){
+  .carousel__navigation {
+    bottom: -15px;
+  }
+}
+
+@media(max-width:768px){
+  .carousel {
+    padding-top: 21%;
+  }
+}
+
+@media(max-width:600px){
+  .carousel {
+    padding-top: 25%;
+  }
+}
+
+@media(max-width:414px){
+  .carousel__viewport {
+    width: 40%;
+  }
+  .carousel {
+    padding-top: 39%;
+  }
+}
+
+@media(max-width:375px){
+  .menu ul {
+    margin-top: 60px;
+    padding-left: 0px;
+  }
+  .principal-container h1 {
+    padding-left: 19px;
+    font-size: 50px;
+  }
+}
+
+@media(max-width:360px){
+  .menu {
+    margin-left: 45%;
+  }
+  .menu ul {
+    margin-top: 54px;
+    padding-left: 0px;
+  }
+  .principal-container h1 {
+    font-size: 47px;
+  }
+  .principal-container h2 {
+    font-size: 15px;
+  }
+  .body button {
+    width: 151px;
+    height: 44px;
+    font-size: 13px;
+  }
+  .box p {
+    font-size: 15px;
+  }
+}
+
+@media(max-width:360px){
+  .carousel {
+    padding-top: 43%;
+  }
+}
+
+@media(max-width:320px){
+  .principal-container h1 {
+      font-size: 45px;
+  }
+  .menu {
+      margin-left: 38%;
+  }    
+  .images {
+    width: 100%;
+}
+.carousel {
+  padding-top: 47%;
+}
+.carousel__viewport {
+  width: 50%;
+}
+}
