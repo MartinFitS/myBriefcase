@@ -85,21 +85,29 @@ header h1{
     font-family: 'Poiret One', cursive;
 }
 
-.body button {
+.body a {
+    font-size: 15px;
     cursor: pointer;
     font-weight: 500;
     margin-top: 30px;
     margin-left: 50px;
-    width: 200px;
-    height: 50px;
+    width: 211px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 80px;
     border-radius: 30px;
     background-color: rgb(164, 255, 164);
     border: 1px solid rgb(164, 255, 164);
+    text-decoration: none;
+    color: black;
 }
 
 .middleContainer{
     width: 100%;
     height: auto;
+    margin-bottom: 200px;
 }
 
 .middleContainer h1{
@@ -235,4 +243,62 @@ button a{
 
 .imageFour:hover .box{
     display: block;
+}
+
+.myPresentation{  
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 245px;
+}
+
+.photo{
+    width: 30%;
+    height: 400px;
+    background-image: url("../img/yo.jpg");
+    background-size: cover;
+}
+
+.datos{
+    padding-top: 30px;
+    width: 70%;
+    height: 500px;
+}
+
+.datos h1{
+    padding-left: 70px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.datos h2{
+    padding-left: 70px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.datos p{
+    padding-left: 70px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.redes{
+    width: 100%;
+    height: auto;
+}
+
+.redes ul{
+    padding-left: 70px;
+    display: flex;
+}
+
+.redes li{
+    padding-right: 10px;
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
 }
