@@ -39,6 +39,12 @@
     }
 }
 
+@media(max-width:540px){
+    .myPresentation {
+        width: 100%;
+    }
+}
+
 @media(max-width:414px){
     .menu {
         margin-left: 48%;
@@ -76,3 +82,8 @@
     }
 }
 
+@media(max-width:375px){
+    .photo {
+        background-position-x: -32px;
+    }
+}
