@@ -256,7 +256,7 @@ button a{
 .photo{
     width: 30%;
     height: 400px;
-    background-image: url("../img/yo.jpg");
+    background-color: rgb(255, 102, 102);
     background-size: cover;
 }
 
